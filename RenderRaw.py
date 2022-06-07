@@ -16,7 +16,7 @@ def message(msgType, data):
         videoPost = my_render_data.GetFirstVideoPost()
 
         while (videoPost):
-            print videoPost
+            print (videoPost)
             if videoPost.CheckType(redshiftRenderEngineId):
                 break
             videoPost = videoPost.GetNext()
